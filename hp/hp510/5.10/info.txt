@@ -1,0 +1,19 @@
+Kernel source: https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.235.tar.xz
+-----------------------------------------
+Kernel version: 5.10.235-sasykernel-hp510
+  Major: 5
+  Minor: 10
+  Patch: 235
+  Label: -sasykernel-hp510
+-----------------------------------------
+Features:
+  Filesystems: F2FS, EXT2, EXT3, EXT4, ISO9660
+    Microsoft filesystems: VFAT/FAT12/FAT16/FAT32
+  Default Hostname: hp510
+  Built-in Drivers:
+    atkbd          (AT Translated Set 2 Keyboard)
+    psmouse        (Generic PS/2 Mouse)
+    b43/wl         (Broadcom BCM4311 Wireless)
+    8139too/8139cp (Realtek RTL8139 Ethernet)
+    ata_piix       (Intel(R) ICH7 IDE/SATA Controller)
+    pata_acpi      (Generic PATA/Parallel ATA Controller)
