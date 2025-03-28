@@ -17,3 +17,8 @@ Features:
     8139too/8139cp (Realtek RTL8139 Ethernet)
     ata_piix       (Intel(R) ICH7 IDE/SATA Controller)
     pata_acpi      (Generic PATA/Parallel ATA Controller)
+
+What's not working | Things that could be fixed by you:
+  1. Network (Always showing "Network is unreachable" or lack of internet tools in the initrd test image)
+  2. Bootlogo disappearing after i915 transition (Kernel config problem maybe)
+  3. HP 510's Modem (Useless driver for now, include it if you want by rebuilding the kernel with config file)
